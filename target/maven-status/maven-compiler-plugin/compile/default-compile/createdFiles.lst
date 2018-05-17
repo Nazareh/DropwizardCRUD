@@ -1,0 +1,7 @@
+resources\EventResource.class
+core\DummyEventRepository$1.class
+api\Event.class
+core\DummyEventRepository.class
+EventsApplication.class
+core\EventRepository.class
+EventsConfiguration.class

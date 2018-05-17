@@ -1,0 +1,3 @@
+server:
+  rootPath: /api/*
+dateFormat: yyyy-MM-dd'T'HH:mmZ
