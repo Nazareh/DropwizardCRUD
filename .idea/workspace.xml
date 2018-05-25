@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6563d2-313b-4940-9137-228b10b6761b" name="Default" comment="Add EventResourceTest class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/healthchecks/EventsApplicationHealthCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java" afterDir="false" />
+    <list default="true" id="6f6563d2-313b-4940-9137-228b10b6761b" name="Default" comment="Add ASSERTJ to EventResourceTest class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EventsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EventsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/DummyEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/DummyEventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/EventResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/EventResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dummy_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dummy_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/DummyEventRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/DummyEventRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/EventsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EventsConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventsConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/DummyEventRepository$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/DummyEventRepository$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/DummyEventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/DummyEventRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/EventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/EventRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dummy_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dummy_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/resources/EventResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/EventResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/events-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/events-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/events-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/events-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-events-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-events-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,11 +34,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventResourceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <folding>
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventResourceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="165">
+              <caret line="116" column="75" selection-start-line="116" selection-start-column="75" selection-end-line="116" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +62,20 @@
       <file leaf-file-name="EventsApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EventsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -93,15 +96,15 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/healthchecks/EventsApplicationHealthCheck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EventResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/EventResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="527">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,17 +143,17 @@
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/EventsApplicationHealtCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/DatabaseHealthCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EventsApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/DummyEventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/EventRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/DummyEventRepositoryTest.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/core/DummyEventRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/healthchecks/EventsApplicationHealtCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/EventResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EventsApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/Event.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -201,6 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,28 +299,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Events" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learning JUnit" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.20344828" />
+    <property name="project.structure.side.proportion" value="0.4862069" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -396,55 +399,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventResourceTest">
+  <component name="RunManager" selected="JUnit.EventResourceTest.testPut">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DummyEventRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Events" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="core" />
-      <option name="MAIN_CLASS_NAME" value="core.DummyEventRepositoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DummyEventRepositoryTest.postSingleEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Events" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="core" />
-      <option name="MAIN_CLASS_NAME" value="core.DummyEventRepositoryTest" />
-      <option name="METHOD_NAME" value="postSingleEvent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="EventResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Events" />
@@ -492,6 +449,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="EventResourceTest.testGetSingleObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="resources" />
+      <option name="MAIN_CLASS_NAME" value="resources.EventResourceTest" />
+      <option name="METHOD_NAME" value="testGetSingleObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="EventResourceTest.testPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Events" />
       <extension name="coverage">
@@ -505,6 +485,29 @@
       <option name="PACKAGE_NAME" value="resources" />
       <option name="MAIN_CLASS_NAME" value="resources.EventResourceTest" />
       <option name="METHOD_NAME" value="testPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EventResourceTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="resources" />
+      <option name="MAIN_CLASS_NAME" value="resources.EventResourceTest" />
+      <option name="METHOD_NAME" value="testPut" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,19 +616,19 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DummyEventRepositoryTest" />
-      <item itemvalue="JUnit.DummyEventRepositoryTest.postSingleEvent" />
       <item itemvalue="JUnit.EventResourceTest" />
       <item itemvalue="JUnit.EventResourceTest.testPost" />
       <item itemvalue="JUnit.EventResourceTest.testDelete" />
+      <item itemvalue="JUnit.EventResourceTest.testGetSingleObject" />
+      <item itemvalue="JUnit.EventResourceTest.testPut" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EventResourceTest.testPut" />
+        <item itemvalue="JUnit.EventResourceTest.testGetSingleObject" />
         <item itemvalue="JUnit.EventResourceTest" />
         <item itemvalue="JUnit.EventResourceTest.testDelete" />
         <item itemvalue="JUnit.EventResourceTest.testPost" />
-        <item itemvalue="JUnit.DummyEventRepositoryTest" />
-        <item itemvalue="JUnit.DummyEventRepositoryTest.postSingleEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -649,22 +652,17 @@
       <option name="project" value="LOCAL" />
       <updated>1527180547758</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add EventResourceTest class">
+      <created>1527224609493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527224609493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventResourceTest - 2018.05.25 at 12h 45m 02s.xml">
-      <configuration name="EventResourceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventResourceTest - 2018.05.25 at 12h 46m 38s.xml">
-      <configuration name="EventResourceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventResourceTest - 2018.05.25 at 12h 47m 51s.xml">
-      <configuration name="EventResourceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventResourceTest_testPost - 2018.05.25 at 12h 48m 37s.xml">
-      <configuration name="EventResourceTest.testPost" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventResourceTest_testDelete - 2018.05.25 at 12h 52m 12s.xml">
       <configuration name="EventResourceTest.testDelete" configurationId="JUnit" />
     </history-entry>
@@ -682,6 +680,18 @@
     </history-entry>
     <history-entry file="EventResourceTest - 2018.05.25 at 12h 57m 11s.xml">
       <configuration name="EventResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventResourceTest - 2018.05.25 at 23h 04m 00s.xml">
+      <configuration name="EventResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventResourceTest - 2018.05.25 at 23h 04m 53s.xml">
+      <configuration name="EventResourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventResourceTest_testGetSingleObject - 2018.05.25 at 23h 06m 59s.xml">
+      <configuration name="EventResourceTest.testGetSingleObject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventResourceTest_testPut - 2018.05.25 at 23h 10m 23s.xml">
+      <configuration name="EventResourceTest.testPut" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -707,15 +717,13 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50121456" side_tool="true" weight="0.3221239" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11093117" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11012146" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32920355" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49959514" weight="0.41946903" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49878544" weight="0.29557523" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49959514" visible="true" weight="0.37699115" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49878544" weight="0.2938053" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.31497976" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" visible="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23481782" />
       <window_info id="Learn" order="2" weight="0.32955465" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -723,37 +731,18 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="12" weight="0.4931973" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49959514" weight="0.37699115" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49878544" weight="0.29421768" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50121456" side_tool="true" weight="0.3221239" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32920355" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23106948" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32920355" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1108509" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info id="Learn" order="2" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32920355" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="12" weight="0.4931973" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32920355" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1033,24 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding>
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1065,34 +1036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/core/DummyEventRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/healthchecks/EventsApplicationHealthCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1110,8 +1057,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/EventResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="527">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/core/DummyEventRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <folding>
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/EventResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="116" column="75" selection-start-line="116" selection-start-column="75" selection-end-line="116" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1135,7 +1130,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1195,11 +1190,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-access:1.2.3</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20344828" />
+                <option value="0.4862069" />
               </list>
             </option>
           </splitter-proportions>
