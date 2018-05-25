@@ -3,5 +3,6 @@ core\DummyEventRepository$1.class
 api\Event.class
 core\DummyEventRepository.class
 EventsApplication.class
+healthchecks\EventsApplicationHealtCheck.class
 core\EventRepository.class
 EventsConfiguration.class

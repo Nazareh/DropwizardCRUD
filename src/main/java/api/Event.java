@@ -1,15 +1,11 @@
 package api;
 
 
-import java.util.Date;
-
 public class Event {
     private long id;
     private String name;
     private String description;
     private String location;
-    private Date date;
-
 
     public long getId() {
         return id;
@@ -43,18 +39,32 @@ public class Event {
         this.location = location;
     }
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
     public void updateExceptId(Event event) {
         this.name = event.name;
         this.description = event.description;
         this.location = event.getLocation();
-        this.date = event.date;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        if(!(obj instanceof Event)) return false;
+            Event event = (Event) obj;
+
+        return event.getId() == this.id &&
+                event.getLocation().equals(this.location) &&
+                event.getDescription().equals(this.description)&&
+                event.getName().equals(this.name);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Event{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", location='" + location + '\'' +
+                '}';
     }
 }

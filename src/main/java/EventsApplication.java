@@ -1,9 +1,8 @@
 import core.DummyEventRepository;
+import healthchecks.EventsApplicationHealthCheck;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
 import resources.EventResource;
-
-import java.text.SimpleDateFormat;
 
 public class EventsApplication extends Application<EventsConfiguration> {
     public static void main(String[] args) throws Exception {
@@ -12,11 +11,10 @@ public class EventsApplication extends Application<EventsConfiguration> {
 
     }
     @Override
-    public void run(EventsConfiguration eventsConfiguration, Environment environment) throws Exception {
-        environment.getObjectMapper().setDateFormat(new SimpleDateFormat(eventsConfiguration.getDateFormat()));
-
+    public void run(EventsConfiguration eventsConfiguration, Environment environment) {
         environment.jersey().register(new EventResource(new DummyEventRepository()));
-
+        environment.healthChecks().register("sample-app2",new EventsApplicationHealthCheck());
+        environment.healthChecks().register("sample-app",new EventsApplicationHealthCheck());
 
     }
 }

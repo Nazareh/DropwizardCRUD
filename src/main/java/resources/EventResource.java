@@ -12,7 +12,7 @@ import java.util.List;
 @Path("events")
 @Produces(MediaType.APPLICATION_JSON)
 public class EventResource {
-    private EventRepository repository;
+    private final EventRepository repository;
 
     public EventResource(EventRepository repository){
         this.repository = repository;
@@ -33,7 +33,7 @@ public class EventResource {
 
     @POST
     public Event create(Event event){
-        return repository.save(event);
+        return repository.create(event);
     }
     @PUT
     @Path("{id}")
